@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{9A542542-B254-4920-97E1-C22EC2A78258}|Default">
+  <MonoDevelop.Ide.ItemProperties.Till PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz/Backend/Till.cs">
+    <Files>
+      <File FileName="Quiz/baza_kasa.json" Line="1" Column="1" />
+      <File FileName="Quiz/Program.cs" Line="1" Column="1" />
+      <File FileName="Quiz/Backend/Product.cs" Line="1" Column="1" />
+      <File FileName="Quiz/Backend/Till.cs" Line="21" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="quiz-wszystkie_grupy" expanded="True">
+            <Node name="Till" expanded="True">
+              <Node name="Backend" expanded="True">
+                <Node name="Till.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
