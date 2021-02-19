@@ -17,3 +17,4 @@ C:\san\quiz-105775\Quiz\obj\Debug\Till.csproj.CoreCompileInputs.cache
 C:\san\quiz-105775\Quiz\obj\Debug\Till.csproj.CopyComplete
 C:\san\quiz-105775\Quiz\obj\Debug\Quiz.exe
 C:\san\quiz-105775\Quiz\obj\Debug\Quiz.pdb
+C:\san\quiz-105775\Quiz\bin\Debug\baza_kasa.json

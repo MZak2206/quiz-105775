@@ -1,0 +1,359 @@
+﻿[
+  {
+    "Kod": "0001",
+    "Cena": 4.20,
+    
+    "Produkt": "Jabłko 1kg",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0002",
+    "Cena": 8.99,
+    
+    "Produkt": "Pomidor 1kg",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0003",
+    "Cena": 1.19,
+    
+    "Produkt": "Ogórek Długi",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0004",
+    "Cena": 7.89,
+    
+    "Produkt": "Papryka 1kg",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0005",
+    "Cena": 2.55,
+    
+    "Produkt": "Chleb",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0006",
+    "Cena": 0.26,
+    
+    "Produkt": "Bułka 1szt",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0007",
+    "Cena": 1.70,
+    
+    "Produkt": "Pączek 1szt",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0008",
+    "Cena": 9.99,
+    
+    "Produkt": "Pepsi 1l",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0009",
+    "Cena": 8.98,
+    
+    "Produkt": "Coca-Cola 1l",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0010",
+    "Cena": 7.59,
+    
+    "Produkt": "Fanta 1l",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0011",
+    "Cena": 9.89,
+    
+    "Produkt": "Piwo Atak Chmielu",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0012",
+    "Cena": 3.35,
+    
+    "Produkt": "Mąka 1kg",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0013",
+    "Cena": 4.59,
+    
+    "Produkt": "Banan 1kg",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0014",
+    "Cena": 6.99,
+    
+    "Produkt": "Pomarańcza 1kg",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0015",
+    "Cena": 4.70,
+    
+    "Produkt": "Ser 250g",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0016",
+    "Cena": 2.12,
+    
+    "Produkt": "Jogurt",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0017",
+    "Cena": 2.79,
+    
+    "Produkt": "Mleko 2",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0018",
+    "Cena": 1.69,
+    
+    "Produkt": "Kefir",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0019",
+    "Cena": 8.27,
+    
+    "Produkt": "Szynka Parmeńska",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0020",
+    "Cena": 43.99,
+    
+    "Produkt": "Kiełbasa Krakowska 1kg",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0021",
+    "Cena": 6.09,
+    
+    "Produkt": "Parówka Berlinki",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0022",
+    "Cena": 8.99,
+    
+    "Produkt": "Pizza mrożona",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "000.23",
+    "Cena": 11.29,
+    
+    "Produkt": "Sajgonki",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0024",
+    "Cena": 4.69,
+    
+    "Produkt": "Czekolada",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0025",
+    "Cena": 3.70,
+    
+    "Produkt": "Żelki",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0026",
+    "Cena": 3.12,
+    
+    "Produkt": "Baton Snickers",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0027",
+    "Cena": 3.45,
+    
+    "Produkt": "Baton Bounty",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0028",
+    "Cena": 2.89,
+    
+    "Produkt": "Woda Gazowana 2l",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0029",
+    "Cena": 2.56,
+    
+    "Produkt": "Woda Niegazowana 2l",
+    "Vat": 0.23
+  },
+
+  {
+    "Kod": "0030",
+    "Cena": 3.19,
+    
+    "Produkt": "Sól 1kg",
+    "Vat": 0.23
+  },
+
+  {
+    "Kod": "0031",
+    "Cena": 2.89,
+    
+    "Produkt": "Cukier 1kg",
+    "Vat": 0.08
+  },
+
+  {
+    "Kod": "0032",
+    "Cena": 1.59,
+    
+    "Produkt": "Drożdże",
+    "Vat": 0.23
+  },
+
+  {
+    "Kod": "0033",
+    "Cena": 6.19,
+    
+    "Produkt": "Serwetki",
+    "Vat": 0.23
+  },
+
+  {
+    "Kod": "0034",
+    "Cena": 3.29,
+    
+    "Produkt": "Maszynka",
+    "Vat": 0.23
+  },
+
+  {
+    "Kod": "0035",
+    "Cena": 4.79,
+    
+    "Produkt": "Żyletki",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0036",
+    "Cena": 6.39,
+    
+    "Produkt": "Żel pod prysznic",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0037",
+    "Cena": 2.69,
+    
+    "Produkt": "Mydło",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0038",
+    "Cena": 7.59,
+    
+    "Produkt": "Lakier do włosów",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0039",
+    "Cena": 3.19,
+    
+    "Produkt": "Mleko Czekoladowe",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0040",
+    "Cena": 7,
+    
+    "Produkt": "Płyn antybakterynjy 70%",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0041",
+    "Cena": 12.89,
+    
+    "Produkt": "Papier toaletowy",
+    "Vat": 0.08
+  },
+  {
+    "Kod": "0042",
+    "Cena": 3.99,
+    
+    "Produkt": "Chusteczki",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0043",
+    "Cena": 5.89,
+    
+    "Produkt": "Monster 0.5l",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0044",
+    "Cena": 8.89,
+    
+    "Produkt": "Red Bull 0.5l",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0045",
+    "Cena": 2.69,
+    
+    "Produkt": "Pieprz",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0046",
+    "Cena": 17.99,
+    
+    "Produkt": "Papierosy",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0047",
+    "Cena": 6.87,
+    
+    "Produkt": "APAP",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0048",
+    "Cena": 3.99,
+    
+    "Produkt": "Ketchup",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0049",
+    "Cena": 4.29,
+    
+    "Produkt": "Musztarda",
+    "Vat": 0.23
+  },
+  {
+    "Kod": "0050",
+    "Cena": 4.59,
+    
+    "Produkt": "Chrzan",
+    "Vat": 0.23
+  }
+]
+     

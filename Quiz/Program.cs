@@ -9,6 +9,7 @@ namespace Quiz
     {
         // Prototype of Product -> Saving User's Options
         static List<Paragon> Receipts = new List<Paragon> { };
+        static List<Product> AddedProducts = new List<Product> { };
 
         static void Main()
         {
@@ -68,14 +69,18 @@ namespace Quiz
             string ilosc = Console.ReadLine();
 
             WybranyProdukt.Cena = WybranyProdukt.Cena * Int32.Parse(ilosc);
+            WybranyProdukt.ilosc = ilosc;
+
+            AddedProducts.Add(WybranyProdukt);
+
+
 
             Paragon Paragon = new Paragon();
 
             Paragon.Kod = Receipts.Count() + 1;
-            Paragon.Netto = WybranyProdukt.Cena;
-            Paragon.Brutto = Math.Round(WybranyProdukt.Cena + WybranyProdukt.Cena * WybranyProdukt.Vat, 2);
+           
 
-            Receipts.Add(Paragon);
+            
 
 
             Console.WriteLine("Nastepny produkt(N)");
@@ -88,11 +93,56 @@ namespace Quiz
                 case "N":
                     shopping(Till);
                     break;
+                case "n":
+                    shopping(Till);
+                    break;
                 case "P":
-                    receiptList();
+                    showReceipt(Paragon);
+
+                    break;
+                case "p":
+                    showReceipt(Paragon);
+
                     break;
             }
         }
+
+        static void showReceipt(Paragon paragon)
+        {
+            double netto = 0;
+            double total = 0;
+            double vat8 = 0;
+            double vat23 = 0;
+            Console.WriteLine($"Data sprzedazy: {DateTime.Now.ToString("dd.MM.yyy")}");
+            Console.WriteLine($"Numer Paragonu: {paragon.Kod}");
+            Console.WriteLine("---------------------");
+            AddedProducts.ForEach(product =>
+            {
+                Console.WriteLine($"{product.Produkt} {product.ilosc} {Math.Round(product.Cena + product.Cena * product.Vat, 2)}");
+                netto += product.Cena;
+                total += Math.Round(product.Cena + product.Cena * product.Vat, 2);
+                switch (product.Vat)
+                {
+                    case 0.08:
+                        vat8+=Math.Round(product.Cena * product.Vat, 2);
+                        break;
+                    case 0.23:
+                        vat23 += Math.Round(product.Cena * product.Vat, 2);
+                        break;
+                }
+
+            });
+            Console.WriteLine($"Łacznie do zaplaty: {total} PLN");
+            Console.WriteLine("w tym:");
+            Console.WriteLine($"Vat 8% {vat8} PLN");
+            Console.WriteLine($"Vat 23% {vat23} PLN");
+
+            paragon.Netto = netto;
+            paragon.Brutto = total;
+            Receipts.Add(paragon);
+            UserSelect(new Till());
+        }
+
 
         static void productList(Till Till)
         {
@@ -100,7 +150,9 @@ namespace Quiz
             Till.Products.ForEach(product =>
             {
                 Console.WriteLine($"{product.Kod}. {product.Produkt} - {product.Cena} PLN");
+
             });
+            UserSelect(Till);
         }
 
         static void receiptList()
@@ -111,19 +163,22 @@ namespace Quiz
                 Receipts.ForEach(product =>
                 {
                     Console.WriteLine($"{product.Kod}. Kwota brutto: {product.Brutto} PLN, Netto: {product.Netto} PLN");
+                    
                 });
-             }
+                UserSelect(new Till());
+            }
             else
             {
                 Console.WriteLine("Brak Paragonów. Naciśnij (Z) aby dokonać swojego pierwszego zakupu");
 
                 string Input = Console.ReadLine();
 
-                if (Input == "Z")
+                if (Input == "Z" || Input == "z")
                 {
                     shopping(new Till());
                 } 
             };
+            
         }
 
     }

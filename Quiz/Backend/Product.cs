@@ -6,17 +6,19 @@
 
         public string Produkt { get; set; }
 
-        public decimal Cena { get; set; }
+        public double Cena { get; set; }
 
-        public decimal Vat { get; set; }
+        public double Vat { get; set; }
+
+        public string ilosc { get; set; }
 
     }
 
     public class Paragon
     {
         public int Kod { get; set; }
-        public decimal Brutto { get; set; }
-        public decimal Netto { get; set; }
+        public double Brutto { get; set; }
+        public double Netto { get; set; }
     }
 
 }
